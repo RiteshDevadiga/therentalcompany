@@ -11,6 +11,48 @@ body::before {
     height: 60px;
 }
 
+.navbar{
+  background-color: var(--background-color);
+}
+.nav-link{
+  color: var(--maintext-color);
+}
+
+.navbar-dark{
+  --bs-navbar-color:var(--maintext-color);
+  --bs-navbar-hover-color:var(--secondarytext-color);
+  --bs-navbar-active-color:var(--maintext-color);
+  --bs-navbar-brand-color:var(--maintext-color);
+  --bs-navbar-brand-hover-color:var(--maintext-color);
+  --bs-navbar-toggler-border-color:var(--maintext-color);
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: var(--maintext-color);
+  --bs-nav-tabs-link-hover-border-color: var(--maintext-color) var(--background-color) var(--maintext-color);
+}
+
+.fw-bolder {
+  color: var(--maintext-color);
+}
+
+.display-1{
+  color: var(--tertiarytext-color);
+}
+
+.navbar-toggler-icon {
+  background-color: var(--maintext-color);
+}
+
+.h5, h5 {
+  color: var(--maintext-color);
+}
+
+.list-group {
+  --bs-list-group-color: var(--tertiarytext-color);
+}
+
+
 .card {
   transition: transform 0.2s ease-out;
 }
@@ -80,14 +122,15 @@ body::before {
 
 a.list-group-item{
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, .125);
   transition: transform 0.2s ease-out;
   text-align: center;
   padding: 12px 0;
 }
 
 a.list-group-item:hover{
-  background-color:rgb(254, 217, 96);
+  background-color:var(--background-color);
+  border-bottom: 1px solid  #ed2f91;
+  border-top: 1px solid  #ed2f91;
   transform: scale(1.05);
 }
 
