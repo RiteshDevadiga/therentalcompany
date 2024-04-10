@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>ANS Networks</title>
+
+</head>
+<body>
+  <div>
+    <!--Navigation Bar -->
+    <nav class="navbar nav-tabs navbar-expand-xl bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <div class="anslogoclass">
+          <img src="/images/anslogo.png" class="anslogo">
+        </div>
+        <div class="companyname">
+          <a href="#" class="navbar-brand">ANS Networks</a>
+        </div>
+         <!-- Hamburger button on the right -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/aboutus.html" class="nav-link" aria-current="page">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a href="#services" class="nav-link  dropdown-toggle" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Services</a>
+              <!-- Dropdown Menu -->
+              <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
+                <div class="mega-content px-md-4">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Managed IT Services
+                          <i 
+                              class="fa-solid fa-caret-right fa-fade" style="color: #212529; --fa-animation-duration: 4s; --fa-bounce-rebound: 0;">
+                            </i>
+                        </h5>
+                        <div class="list-group">
+                          <a class="list-group-item icon-link icon-link-hover" href="/managedITservices/itsupportnsolutionservice.html">IT Support & Solution Services
+                          </a>
+                          <a class="list-group-item" href="/managedITservices/servermanagmentservice.html">Server Management Services
+                          </a>
+                          <a class="list-group-item" href="/managedITservices/vmvareservermaintance.html">Vmware Virtual Server Environment
+                          </a>
+                          <a class="list-group-item" href="/managedITservices/desktopandlaptopservice.html">Desktop & Laptop Services
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>IT Infrastructure Management Services</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="/IT infrastructuremanagementservices/usersupport.html">User Support</a>
+                          <a class="list-group-item" href="/managedITservices/servermanagmentservice.html">Server Management Services</a>
+                          <a class="list-group-item" href="/IT infrastructuremanagementservices/remotesupportservice.html">Remote Support Services</a>
+                          <a class="list-group-item" href="/IT infrastructuremanagementservices/clodservice.html">Cloud Services</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Networking Services</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="/networkservices/rackdressing.html">Rack Dressing</a>
+                          <a class="list-group-item" href="/networkservices/networkstructcable.html">Network Structural Cabling</a>
+                          <a class="list-group-item" href="/networkservices/sysintegratorservice.html">System Integrator Computer Networking Services</a>
+                          <a class="list-group-item" href="/networkservices/cctvsecuritysys.html">CCTV Security System</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Software Management Services</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="/softwaremanagmentservice/ERPServices.html">ERP Services</a>
+                          <a class="list-group-item" href="/softwaremanagmentservice/ERPConsultingSoftwareSer.html">ERP Consulting & Software Services</a>
+                          <a class="list-group-item" href="/softwaremanagmentservice/ComputerAMCServices.html">Computer AMC Services</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Server Maintenance Services</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="/servermaintanceservice/serverinstallationservice.html">Server Installation Service</a>
+                          <a class="list-group-item" href="/servermaintanceservice/servermaintance.html">Server Implementation Services</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  
+            </li>
+            <li class="nav-item">
+              <a href="/contactus.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--ShowCase-->
+    <section class="text-body p-5 p-lg-0 pt-lg-5 text-sm-start mb-3">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div data-aos="fade-up">
+            <H1 class="display-1">Welcome to <span class="text-warning fw-bolder">ANS Networks</span></H1>
+            <p class="lead my-4">
+              Get excellent computer services like repairs, server installation,Software support and consulting etc.at affordable prices.
+            </p>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Get your Quote</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name" value="ansnetwork@gmail.com" disabled>
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text" placeholder="Enter your Message here our team will connect with you"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label for="number" class="col-form-label">Mobile Number:</label>
+                        <input type="tel" class="form-control" id="number" minlength="10" placeholder="e.g. 9820415555">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="homepagegetquotemodal">Close</button>
+                    <button type="button" class="btn btn-primary">Hit me Up !!!</button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="homepagegetquotemodal" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                              <h1 class="modal-title fs-5 text-light" id="exampleModalLabel">We got your Details</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-success">
+                              Thanks for your Email our team will connect you shortly
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid w-50" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine" src="images/SowcaseImg.jpg" alt="">
+          <!--<a href="http://www.freepik.com">Designed by macrovector / Freepik</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!--Carousel-->
+    <!--
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/Caursoul_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/Caursoul_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/Caoursoul_3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  -->
+    <!--Let us reach you-->
+    <section class="bg-dark text-light p-5">
+      <div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Let us reach you !! Simply Enter your email and will connect with you in an hour</h3>
+
+          <div class="input-group contact-input input-group-lg">
+            <input 
+            type="text" 
+            class="form-control rounded-3" 
+            placeholder="Enter your Email" aria-label="Recipient's username" aria-describedby="button-addon2"
+            />
+            <button 
+            class="btn btn-outline-info btn-lg rounded-3" 
+            type="button" 
+            id="button-addon2">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let us reach you 2 -->
+    <section>
+      <div class="container">
+        <h1 class="mt-3 mb-3 mb-md-0 text-center">
+          Operating <span class="text-info display-2">Since 2014</span> , <span class="text-warning display-2">ANS NETWORK SERVICES</span> has built an excellent reputation by <br>continuously delivering their customers;
+        </h1>
+      </div>
+    </section>
+
+    <!-- Boxes Grid-->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                 <!--<i class="bi bi-chevron-double-right"></i>--> 
+                  <i class="fa-solid fa-signal fa-bounce" style="color: #0d6efd; --fa-animation-duration: 4s; --fa-bounce-rebound: 0;"></i>
+                </div>
+                <h3 class="card-title mb-3">
+                  Proper service
+                  </h3>
+                <p class="card-text">
+                  We are working consistently with the aim of providing high quality products & proper service.
+                </p>
+                <a href="/servermaintanceservice/servermaintance.html" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <!--<i class="bi bi-arrow-up-circle"></i>-->
+                  <i class="fa-solid fa-brain fa-bounce" style="color: #212529; --fa-animation-duration: 4s; --fa-bounce-rebound: 0;"></i>
+                </div>
+                <h3 class="card-title mb-3">
+                  Detailed knowledge
+                 </h3>
+                <p class="card-text">
+                  We will make sure customer get full knowledge about the service and product.
+                </p>
+                <a href="/IT infrastructuremanagementservices/clodservice.html" class="btn btn-outline-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md" data-aos="fade-up-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <!--<i class="bi bi-emoji-smile"></i>-->
+                  <i class="fa-solid fa-headset fa-bounce" style="color: #0d6efd; --fa-animation-duration: 4s; --fa-bounce-rebound: 0;"></i>
+                </div>
+                <h3 class="card-title mb-3">
+                  Customer Support
+                  </h3>
+                <p class="card-text">
+                  we ensure the same level of customer commitment & support to each and every cutomer.
+                </p>
+                <a href="/IT infrastructuremanagementservices/usersupport.html" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Sections-->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="images/Why.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md p-5" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="fw-bold">Sales, Repair and maintenance of 
+              Computer / Laptops</h2>
+            <p class="lead fw-bold">
+              Trust us to find you the right equipment to do the job, and we will take care of all the set up and data transfer to make your new computer turn-key.
+            </p>
+            <p>
+              When things stop working, we are right here to assist you. We offer services such as: PC maintenance and tune-ups, Virus and Malware removal, Computer upgrades, Laptop repairs; broken screens, DC jack, etc., Application support for common applications such as Sage Accounting, Quickbooks, Microsoft Office, and others, Data Recovery Services<br>Our on-site computer support service makes getting your computer fixed easy! No need to disconnect all those computer cables.
+
+            </p>
+            <a class="btn btn-primary icon-link icon-link-hover mt-3" href="/managedITservices/desktopandlaptopservice.html">
+              Read More
+              <!--<i class="bi bi-chevron-double-right mb-sm-1" aria-hidden="true"><use xlink:href="#arrow-right"></use></i>-->
+              <i class="fa-solid fa-arrow-right-to-bracket fa-fade" style="color: #fdfdfd;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Learning section Part 2-->
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="fw-bold">Data cabling and wireless communications</h2>
+            <p class="lead fw-bold">
+              ANS Network Services provides a diverse array of small and mid-sized businesses with all their cable and wiring services
+            </p>
+            <p>
+              From project inception through completion, TNSC is a single source for total system and network design, engineering, installation, and support.<br>We provide the best Data cabling and wireless communication solutions in the India, at very effective pricing. Our customers benefit from a wealth of data cabling skills and years of combined network experience. We always deliver our cable solutions with a commitment to do things right, delivered on time, and within budget.
+            </p>
+            <a class="btn btn-outline-primary icon-link icon-link-hover mt-3" href="/networkservices/rackdressing.html">
+              Read More
+              <!--<i class="bi bi-chevron-double-right mb-sm-1" aria-hidden="true"><use xlink:href="#arrow-right"></use></i>-->
+              <i class="fa-solid fa-arrow-right-to-bracket fa-fade" style="color: #fdfdfd;"></i>
+            </a>
+          </div>
+          <div class="col-md" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="images/Whoweare.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Learning section Part 3-->
+    <section id="learn" class="p-5 text-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="images/Whoweare.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md p-5" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="fw-bold">Software support and consulting</h2>
+            <p class="lead fw-bold">
+              Since 2014, in this industry we have been able to build the requisite expertise, processes and quality assurance to provide support to our customers and it goes without saying that our expertise in the use of the internet is unrivalled. And our customer-centric, partnership approach ensures that you are at the centre of what we do. 
+            </p>
+            <p>
+              "The greatest risk for any business is that of losing its customers." <br>ANS Network Services, focus is on the quality of service delivered. This is very closely monitored and measured by our team with particular emphasis on both technical and language correctness.
+            </p>
+            <a class="btn btn-primary icon-link icon-link-hover mt-3" href="/softwaremanagmentservice/ComputerAMCServices.html">
+              Read More
+              <!--<i class="bi bi-chevron-double-right mb-sm-1" aria-hidden="true"><use xlink:href="#arrow-right"></use></i>-->
+              <i class="fa-solid fa-arrow-right-to-bracket fa-fade" style="color: #fdfdfd;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Learning section Part 4-->
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <h2 class="fw-bold">CCTV Cameras - installation with Service</h2>
+              <p class="lead fw-bold">
+                Why stake life of our loved ones, provide them with total safety and security in our absence.We provide a total survey of the area and then as per our Expert recommendations provide you different options in Quotations as per the needs.
+              </p>
+              <p>
+                We Provide CCTV surveillance to following areas: Residential Buildings, Government sectors, Offices, Industries, Malls, Religious structures, Commercial Complex, Banks, Schools, Restaurant, Resorts etc. <br> We provide you the best quality and branded CCTV camera and the other accessories with installation and service at best price.
+              </p>
+              <a class="btn btn-outline-primary icon-link icon-link-hover mt-3" href="/networkservices/cctvsecuritysys.html">
+                Read More
+                <!--<i class="bi bi-chevron-double-right mb-sm-1" aria-hidden="true"><use xlink:href="#arrow-right"></use></i>-->
+                <i class="fa-solid fa-arrow-right-to-bracket fa-fade" style="color: #fdfdfd;"></i>
+              </a>
+            </div>
+            <div class="col-md" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <img src="images/Whoweare.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+   <!-- Question Accordion -->
+   <section id="questions" class="p-5">
+    <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-one"
+            >
+              Where exactly are you located?
+            </button>
+          </h2>
+          <div
+            id="question-one"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-two"
+            >
+              How much does it cost to attend?
+            </button>
+          </h2>
+          <div
+            id="question-two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-three"
+            >
+              What do I need to Know?
+            </button>
+          </h2>
+          <div
+            id="question-three"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-four"
+            >
+              How Do I sign up?
+            </button>
+          </h2>
+          <div
+            id="question-four"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-five"
+            >
+              Do you help me find a job?
+            </button>
+          </h2>
+          <div
+            id="question-five"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!-- Grid Wise Content -->
+
+    <!-- Let us reach you 3 -->
+    <section>
+      <div class="container">
+        <h1 class="mt-3 mb-3 mb-md-0 text-center">
+          <span class="text-danger fw-bold">Why Choose Us?</span> , <span class="text-warning display-2">ANS NETWORK SERVICES</span> has many valid reasons why you should choose us to take care of your valuable device
+        </h1>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-xl p-5" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div class="row">
+                  <!--col1-->
+                    <div class="card mb-3 bg-info rounded-lg">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <!--<i class="bi bi-people"></i>-->
+                          <i class="fa-solid fa-user-tie fa-fade" style="color: #212529;"></i>
+                        </div>
+                        <h3 class="card-title display-6 mb-3">
+                          Experienced Professionals
+                          </h3>
+                        <p class="card-text fs-5">
+                          We pride ourselves on being a professional computer and laptop repair facility
+                        </p>
+                      </div>
+                    </div>
+                  <!--col2-->
+                    <div class="card mb-3 bg-info rounded-lg">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <!--<i class="bi bi-boxes"></i>-->
+                          <i class="fa-solid fa-award fa-fade" style="color: #212529;"></i>
+                        </div>
+                        <h3 class="card-title mb-3 display-6">
+                          Excellent Reputation
+                          </h3>
+                        <p class="card-text fs-5">
+                          We have built our reputation on the attention to details and our loyal service to our customers
+                        </p>
+                      </div>
+                    </div>
+              </div>
+              <div class="row">
+                  <!--col3-->
+                    <div class="card mb-3 bg-info rounded-lg">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <!--<i class="bi bi-cookie"></i>-->
+                          <i class="fa-solid fa-handshake fa-fade" style="color: #212529;"></i>
+                        </div>
+                        <h3 class="card-title mb-3 display-6">
+                          Friendly Service
+                        </h3>
+                        <p class="card-text fs-5">
+                          Most of the services below are repaired within hours, and in most cases same day!
+                        </p>
+                      </div>
+                     </div>
+                  <!--col4-->
+                    <div class="card mb-3 bg-info rounded-lg">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <!--<i class="bi bi-code-slash"></i>-->
+                          <i class="fa-solid fa-person-chalkboard fa-fade" style="color: #212529;"></i>
+                        </div>
+                        <h3 class="card-title mb-3 display-6">
+                          Expert Technical Skills
+                          </h3>
+                        <p class="card-text fs-5">
+                          Our technical experts will get you honest, reliable and professional help
+                        </p>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          <div class="col-md" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="images/Whoweare.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Instruction and Feedback -->
+    <section id="instructors" class="p-5 bg-primary">
+      <div class="container" data-aos="zoom-in-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <h2 class="text-center text-white">Our Valuable Customers</h2>
+        <p class="lead text-center text-white mb-5">
+          Our instructors all have 5+ years working as a web developer in the
+          industry
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 align-content-center">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/11.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Rahul S Patil</h3>
+                <p class="card-text">
+                  "I liked your service, because right away I felt like ANS Network Services technician was a friend. He explained everything to me and answered all of my questions. He was so helpful and I definitely will use your service again when I need it. I will refer others to you if I get the chance."
+                 </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/12.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Roshan Sharma</h3>
+                <p class="card-text">
+                  "I feel that being honest and up front with people as ANS Network Services were with us they will surely be the computer techs to go with. The service was great not to mention the cost. They will have a very satisfied customer with us.Thank You"                                  
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/12.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Manali Chavan</h3>
+                <p class="card-text">
+                  "My computer skills are limited, and several times we had either viruses or some computer glitch that left our business computer paralyzed. In all cases, ANS Network team came to the rescue to bail us out. Quick turn-around time, economical repairs, and personalized service keep us loyal to their business. Thanks!!!"                                 
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/13.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Sara Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Phone:</span> (333) 333-3333
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email:</span> (555)
+                enroll@frontendbc.test
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Email:</span>
+                student@frontendbc.test
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="Map">
+              <img class="lu-fs" height="160" id="" src="data:image/png;base64,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" width="209" title="Map of ANS Network Services" alt="Map of ANS Network Services" border="0" data-atf="1" data-frt="0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2023 ANS Networks</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Whatsapp Link -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+9820415655&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+  </div>
+    
+    <!--BootStrap Scripts
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+  -->
+  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!--Font Awsome scripts-->
+    <script src="https://kit.fontawesome.com/5ce8b77eb5.js" crossorigin="anonymous"></script>
+    <!--
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  -->
+    
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

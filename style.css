@@ -1,0 +1,115 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.card {
+  transition: transform 0.2s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.banner-image {
+  background-image:url('../images/Caoursoul_3.jpg');
+  background-size: 100%;
+}
+
+.letusreach-bg {
+  background: linear-gradient(-45deg,#ec5252,#6e1a52);
+}
+
+.anslogo {
+  width: 60px;
+  height: 60px;
+}
+
+/*
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
+.dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: rebeccapurple;
+}
+
+.dropdown-menu li .dropdown-item {
+  color: black;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.dropdown-item:hover {
+  background-color: whitesmoke;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}*/
+
+.dropdown-mega .dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-mega h5{
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  text-align: center;
+  margin: 0;
+}
+
+a.list-group-item{
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  transition: transform 0.2s ease-out;
+  text-align: center;
+  padding: 12px 0;
+}
+
+a.list-group-item:hover{
+  background-color:rgb(254, 217, 96);
+  transform: scale(1.05);
+}
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:90px;
+  right:90px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 4px #999;
+  z-index:100;
+}
+.dropdown-menu {
+  max-height: 500px;
+  overflow-y: auto;
+}
+  
+.my-float{
+    margin-top:16px;
+  }
+
+@media(min-width: 768px) {
+    .contact-input {
+        width: 50%;
+    }
+}
+
