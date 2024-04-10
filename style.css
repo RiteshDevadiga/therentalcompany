@@ -1,3 +1,10 @@
+:root{
+  --background-color:#f0f6fe;
+  --maintext-color:#ed2f91;
+  --secondarytext-color:#f05b9a;
+  --tertiarytext-color:#717171;
+}
+
 body::before {
     display: block;
     content: '';
