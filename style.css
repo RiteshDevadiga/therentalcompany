@@ -48,7 +48,7 @@ body::before {
   background-color: var(--maintext-color);
 }
 
-.h5, h5 {
+.h5, h5 ,h2 {
   color: var(--maintext-color);
 }
 
@@ -74,13 +74,13 @@ body::before {
 
 .imagecard{
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   padding: 30px 50px;
-  background: #fff;
+  background: #f0f6fe;
   cursor: pointer;
   margin-right: 30px;
 }
@@ -113,7 +113,7 @@ body::before {
 
 .imagecard:hover > .image-box-content {
   opacity: 1;
-  transform: translateY(-180px);
+  transform: translateY(-80px);
 }
 
 .card:hover {
