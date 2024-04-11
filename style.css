@@ -36,7 +36,11 @@ body::before {
   color: var(--maintext-color);
 }
 
-.display-1{
+.welcome-container.display-1{
+  color: var(--tertiarytext-color);
+}
+
+.details-text{
   color: var(--tertiarytext-color);
 }
 
