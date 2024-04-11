@@ -56,10 +56,22 @@ body::before {
   --bs-list-group-color: var(--tertiarytext-color);
 }
 
-
 .card {
   transition: transform 0.2s ease-out;
 }
+
+.card.card-body-one{
+  --bs-card-bg: var(--secondarytext-color);
+}
+
+.card.card-body-two{
+  --bs-card-bg: var(--tertiarytext-color);
+}
+
+.card.card-body-three{
+  --bs-card-bg: var(--secondarytext-color);
+}
+
 
 .card:hover {
   transform: scale(1.05);
