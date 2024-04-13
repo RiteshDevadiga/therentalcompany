@@ -324,6 +324,26 @@ body::before {
   }
 }
 
+/* Blocks */
+.block {
+  --padding-vertical: 0.5rem;
+  padding: var(--padding-vertical) 2rem;
+}
+
+.block--dark {
+  background:linear-gradient(45deg, #ed2f91, #f05b9a);
+  color: #7b858b;
+}
+
+.block--skewed-right {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
+}
+
+.block--skewed-left {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+}
 
 
 
