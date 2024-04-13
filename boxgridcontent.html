@@ -1,3 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Styles for image cards */
+.imagecard {
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+.imgbox {
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.image-box-content {
+  padding: 20px;
+}
+
+/* Center align content */
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* Add margin between image cards */
+.imagecard {
+  margin: 0 10px;
+}
+
+/* Adjust margin for smaller screens */
+@media screen and (max-width: 768px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+  .imagecard {
+    margin: 10px 0;
+  }
+}
+</style>
+</head>
+ 
+ 
  <!-- Boxes Grid-->
 
  <section class="p-5">
@@ -57,3 +106,61 @@
       </div>
     </div>
   </section>
+
+  <!--Image with cards-->
+
+  <section class="d-flex justify-content-center">
+    <!--First Image card starts-->
+    <div class=" card imagecard mt-5">
+      <div class="imgbox">
+        <img class="card-img"
+          src="https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+      </div>
+
+      <div class="image-box-content">
+        <h2>Keep Smiling</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          doloribus vitae fugit enim repudiandae
+        </p>
+      </div>
+    </div>
+    <!--First Image card ends-->
+
+    <!--Second Image card starts-->
+    <div class="card imagecard mt-5">
+      <div class="imgbox">
+        <img class="card-img"
+          src="https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+      </div>
+
+      <div class="image-box-content">
+        <h2>Keep Smiling</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          doloribus vitae fugit enim repudiandae
+        </p>
+      </div>
+    </div>
+    <!--Second Image card ends-->
+
+    <!--Third Image card starts-->
+    <div class="card imagecard mt-5">
+      <div class="imgbox">
+        <img class="card-img"
+          src="https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+      </div>
+
+      <div class="image-box-content">
+        <h2>Keep Smiling</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          doloribus vitae fugit enim repudiandae
+        </p>
+      </div>
+    </div>
+    <!--Third Image card ends-->
+    </section>
