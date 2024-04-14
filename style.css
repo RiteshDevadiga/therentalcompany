@@ -60,6 +60,11 @@ body::before {
 
 .card {
   transition: transform 0.2s ease-out;
+  border-radius: 30px;
+}
+
+.card-body {
+  color: var(--maintext-color);
 }
 
 .card.card-body-one{
@@ -241,7 +246,7 @@ body::before {
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
-    padding-block: 5rem;
+    padding-block: 0.5rem;
 }
 
 .card__container {
@@ -415,7 +420,9 @@ body::before {
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
-
+.bg-card-info {
+  background-color: var(--background-color);
+}
 
 .banner-image {
   background-image:url('../images/Caoursoul_3.jpg');
