@@ -429,11 +429,16 @@ body::before {
 
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 30px;
+}
+
+.footer-row{
+  align-items: center;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+   margin-top: 20px;
 }
 
 .social-links{
